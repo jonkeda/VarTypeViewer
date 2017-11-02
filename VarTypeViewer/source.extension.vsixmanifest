@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+    <Identifier Id="NotAClue.AlternatingLineColor.Microsoft.2ca97257-cf89-48ee-b596-5bb6ad9639d4">
+        <Name>Var Type Viewer</Name>
+        <Author>Daan Jonkers</Author>
+        <Version>0.1</Version>
+        <Description xml:space="preserve">Var Type Viewer.</Description>
+        <Locale>1033</Locale>
+        <License>Licence.txt</License>
+        <Icon>vsix_VarTypeViewer_small.png</Icon>
+        <PreviewImage>vsix_VarTypeViewer_large.png</PreviewImage>
+        <SupportedProducts>
+          <VisualStudio Version="10.0">
+            <Edition>Pro</Edition>
+          </VisualStudio>
+          <VisualStudio Version="11.0">
+            <Edition>Pro</Edition>
+          </VisualStudio>
+          <VisualStudio Version="12.0">
+            <Edition>Pro</Edition>
+          </VisualStudio>
+        </SupportedProducts>
+        <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+    </Identifier>
+    <References />
+    <Content>
+        <MefComponent>|%CurrentProject%|</MefComponent>
+    </Content>
+</Vsix>
+<!--
+    Please add the following element to PackageManifest\\Assets:
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+-->
+<!--
+    Please add the following element to PackageManifest\\Dependencies:
+    <Dependency Id="Microsoft.VisualStudio.MPF.15.0" DisplayName="Visual Studio MPF 15.0" d:Source="Installed" Version="[15.0]" />
+-->
