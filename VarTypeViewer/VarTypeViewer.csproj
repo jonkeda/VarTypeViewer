@@ -353,6 +353,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Documentation\Example.png" />
+    <Content Include="Documentation\Menu toolbar.png" />
+    <Content Include="Documentation\Toolbar button.PNG" />
     <Content Include="Licence.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
