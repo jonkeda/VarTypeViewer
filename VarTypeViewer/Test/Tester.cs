@@ -6,7 +6,7 @@ namespace VarTypeViewer.Test
     public class Tester
     {
 
-        public void Dummy()
+        public void VarView()
         {
             var i = 10;
 

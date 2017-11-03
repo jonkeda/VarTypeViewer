@@ -86,7 +86,10 @@ namespace VarTypeViewer.Commands
         /// <param name="e">Event args.</param>
         private void MenuItemCallback(object sender, EventArgs e)
         {
+            MenuCommand menuCommand = sender as MenuCommand;
+
             VarServices.ShowVarType = !VarServices.ShowVarType;
+            menuCommand.Checked = VarServices.ShowVarType;
         }
     }
 }
