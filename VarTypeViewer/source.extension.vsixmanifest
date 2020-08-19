@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="Srt2VarTypeViewerVsix" Version="0.6" Language="en-US" Publisher="SRT2" />
+    <Identity Id="Srt2VarTypeViewerVsix" Version="0.9" Language="en-US" Publisher="SRT2" />
     <DisplayName>VarTypeViewer.Vsix</DisplayName>
     <Description>VarTypeViewer.</Description>
   </Metadata>
